@@ -1,6 +1,7 @@
 body{
     margin: 8px;
-    border: 10px 0px;
+    border: solid rgb(255, 245, 173);
+    border-width: 10px 10px;
     padding-left: 20px;
     padding-bottom: 20px;
 }
