@@ -1,10 +1,17 @@
 #siteHead{
-    float: left;
+    display: inline-block;
+    position: fixed;
+    text-align: center;
     color: indigo;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 35px;
-    padding: 0px 50px 0px 0px;
-    border-spacing: 0px
+    font-size: 2vw;
+    width:3.7vw;
+    height:3.7vw;
+    padding-top: 0.6vw;
+    left: 10%;
+    background-color: white;
+    border:0.3vw solid black;
+    text-decoration: none;
 }
 
 
