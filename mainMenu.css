@@ -27,7 +27,7 @@
 }
 
 .menuItem:hover{
-    background-color: aqua;
+    background-color: rgb(233, 233, 233);
 }
 
 .menuItem:hover .submenuItemList{
@@ -41,20 +41,31 @@
 }
 
 .submenuLink{
-    width: 19.5vw;
+    width: 19.73vw;
     height: 2.5vw;
     padding-top: 1.5vw;
     text-align: center;
-    background-color: aqua;
-    float: left;
+    background-color: rgb(233, 233, 233);
     text-decoration: none;
-    padding-bottom: 0.5vw;
+    float: left;
+    color: black;
 }
 
 .submenuLink:hover{
    background-color: rgb(0, 153, 153) 
 }
 
+.topCoverDiv{
+    left:0vw;
+    position: fixed;
+    width: 100vw;
+    height: 9vw;
+    background-color: rgba(161, 156, 156, 0.801)
+}
+
+.bottomCoverDiv{
+    left:10%;
+}
 
 
 

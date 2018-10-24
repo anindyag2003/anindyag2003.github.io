@@ -8,14 +8,10 @@ body{
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    padding-left: 10%;
     background-color:white;
+    left: 10%;
 }
 
-h1,h2,h3{
-    display: inline-block;
-    float: none;
-}
 
 nav{
     /*border: 4px solid black;*/
