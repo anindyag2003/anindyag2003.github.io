@@ -1,0 +1,24 @@
+.bottomCoverDiv{
+    text-align: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.nameHead{
+    text-align: right;
+    font-size: 3vw;
+}
+
+.leftTop{
+    display: inline-block;
+    width: 49%;
+    height: 10vw;
+    border: 3px solid black;
+}
+
+.rightTop{
+    display: inline-block;
+    width: 48%;
+    height: 10vw;
+    border: 3px solid black;
+}

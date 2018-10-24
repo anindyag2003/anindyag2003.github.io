@@ -9,14 +9,14 @@ body{
     margin-left: 0px;
     margin-right: 0px;
     background-color:white;
-    left: 10%;
+    font-size: 1vw;
 }
 
 
 nav{
     /*border: 4px solid black;*/
     padding: 0px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     display: block;
     position: fixed;
     left: 10%;
