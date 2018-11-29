@@ -25,3 +25,24 @@
     height: 10vw;
     border: 3px solid black;
 }
+
+@media screen and (max-width: 15cm){
+    .nameHead{
+        text-align: center;
+        font-size: 8vw;
+        padding: 1vw 2vw;
+        stroke: blueviolet;
+    }
+
+    .leftTop{
+        float: left;
+        width: 100%;
+        border: 3px solid black;
+        word-wrap: normal;
+    }
+    
+    .rightTop{
+        width: 100%;
+        border: 3px solid black;
+    }
+}

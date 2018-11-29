@@ -1,116 +1,66 @@
 <html>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <head>
-        <title>
-            Greetings!
-        </title>
-        <link rel="stylesheet" href="gen.css">
-        <link rel="stylesheet" href="mainMenu.css">
-        <link rel="stylesheet" href="contentStyle.css">
-        <link rel="stylesheet" href="misc.css">
+   <head>
+      <title>Greetings</title>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+      <link rel = "stylesheet" href = "./css/material.min.css">
+      <script src = "./js/material.min.js"></script>
+      <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-yellow.min.css" />
+   </head>
+   
+   <body>
+        <div class = "mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
+            <header class="mdl-layout__header">
+                <div class="mdl-layout__header-row">
+                    <button class="mdl-layout-icon mdl-button mdl-js-button mdl-button--icon" style="width" onclick="window.location.href='index.html'">
+                        <i class="material-icons"> AG </i>
+                    </button> 
+                    <!-- Title -->
+                    <span class="mdl-layout-title">Anindya Gangopadhyay</span>
+                </div>
+                <!-- Tabs -->
+                <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+                        <a class = "mdl-layout__tab is-active" style="padding-left: 1.5vw; padding-right: 1.5vw; word-wrap: break-word" href = "#fixed-tab-1">About Me</a>
+                        <a class = "mdl-layout__tab" style="padding-left: 1.5vw; padding-right: 1.5vw; word-wrap: break-word" href = "#fixed-tab-2">Technical Interests</a><br>
+                        <a class = "mdl-layout__tab" style="padding-left: 1.5vw; padding-right: 1.5vw; word-wrap: break-word" href = "#fixed-tab-3">Cove of Books</a>
+                        <a class = "mdl-layout__tab" style="padding-left: 1.5vw; padding-right: 1.5vw; word-wrap: break-word;" href = "#fixed-tab-4">Gaming and Other Interests</a>
+                </div>
+            </header>
+            
+            <main class="mdl-layout__content">
 
-        <script src="jquery-3.3.1.js"></script>
-    </head>
-    <body>
-        <div class="topCoverDiv">
-            <a href="index.html" id="siteHead"><b>AG</b></a><!--
+                <!-- Panel 1 -->
+                <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+                    <div class="page-content">
+                    <!-- Your content for panel 1 goes here -->
+                        content panel 1
+                    </div>
+                </section>
+                
+                <!-- Panel 2 -->
+                <section class="mdl-layout__tab-panel" id="fixed-tab-2">
+                    <div class="page-content">
+                    <!-- Your content for panel 2 goes here -->
+                        content panel 2
+                    </div>
+                </section>
 
-            --><nav class="fullMenu"><!--
-                --><ul class="menuItemList"><!--
-                    <li class="navHeader"></li>
-                    --><li class="menuItem">Technical Interests
-                        <ul class="submenuItemList">
-                            <li class="submenuItem"><a href="#" class="submenuLink">link1</a></li>
-                            <li class="submenuItem"><a href="#" class="submenuLink">link2</a></li>
-                            <li class="submenuItem"><a href="#" class="submenuLink">link3</a></li>
-                        </ul>
-                    </li><!--
-
-                    --><li class="menuItem">About Me
-                        <ul class="submenuItemList">
-                            <li class="submenuItem"><a href="#" class="submenuLink">link1</a></li>
-                            <li class="submenuItem"><a href="#" class="submenuLink">link1</a></li>
-                            <li class="submenuItem"><a href="#" class="submenuLink">link1</a></li>
-                        </ul>
-                    </li><!--
-
-                    --><li class="menuItem">Music
-                        <ul class="submenuItemList">
-                            <li class="submenuItem"><a href="#" class="submenuLink">link1</a></li>
-                            <li class="submenuItem"><a href="#" class="submenuLink">link1</a></li>
-                            <li class="submenuItem"><a href="#" class="submenuLink">link1</a></li>
-                        </ul>
-                    </li><!--
-
-                    --><li class="menuItem">Webnovels
-                        <ul class="submenuItemList">
-                            <li class="submenuItem"><a href="#" class="submenuLink">link1</a></li>
-                            <li class="submenuItem"><a href="#" class="submenuLink">link1</a></li>
-                            <li class="submenuItem"><a href="#" class="submenuLink">link1</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
+                <!-- Panel 3 -->
+                <section class="mdl-layout__tab-panel" id="fixed-tab-3">
+                    <div class="page-content">
+                    <!-- Your content for panel 2 goes here -->
+                        content panel 3
+                    </div>
+                </section>
+                
+                <!-- Panel 3 -->
+                <section class="mdl-layout__tab-panel" id="fixed-tab-4">
+                    <div class="page-content">
+                         <!-- Your content for panel 2 goes here -->
+                        content panel 4
+                    </div>
+                </section>
+            </main>
         </div>
-        <div class="bottomCoverDiv">
-            <br><br>
-            <br><br>
-            <br><br>
-            <br><br>
-            <h2 class="nameHead">Anindya Gangopadhyay</h2>
-            <aside class="leftTop">
-                <h3 class="siteDescHead">What's this?</h3>
-                <p class="thisSite">I am a software engineer and I recently graduated from IIT Mandi. Presently work
-                            in Accenture India(Bangalore). This site is just my 
-                            personal space describing my interests and my future aspirations. 
-                            The site is just a skeleton as of now and work is being done on it.</p>
-                </aside>
-            <aside class="rightTop">
-                <h3 class="newSectionHead">What's New?</h3>
-            </aside>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            last update 24/10/18
-        </div>
+   
     </body>
 </html>

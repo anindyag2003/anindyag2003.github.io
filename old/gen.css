@@ -37,3 +37,12 @@ button {
     outline: none;
 }
 
+@media screen and (max-width: 15cm){
+    body{
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color:white;
+        font-size: 4vw;
+    }
+}
